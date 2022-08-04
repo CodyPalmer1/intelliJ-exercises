@@ -1,13 +1,21 @@
 alert("Good afternoon.");
 
-let userName = ("");
-while (userName === ""){
+let userName = (""); //init userName
+while (userName === ""){ //While loop to get input and greet user.
     userName = prompt("Hi, what is your name?");
 }
 alert("Nice to meet you " + userName + "!"); // Greet User.
 
-let howAreYou = prompt("How are you doing today?").toLowerCase();
+
+// function greetUser(name) { //Function to greet user, replaced with while loop.
+//     userName = prompt("What is your name?");
+//     alert(`Hello there ${userName}`)
+// }
+// greetUser();
+
+var howAreYou = prompt("How are you doing today?").toLowerCase().toString().trim();
 //console.log(howAreYou.toLowerCase());
+console.log(howAreYou);
 if (howAreYou === "good" || "great") {
     alert("Good! I am glad that you are doing well. Lets get started."); //Should run this line first
 } else if (howAreYou === "bad" || "horrible") {
@@ -38,4 +46,14 @@ switch (happinessScale){
         alert("Invalid choice.");
 }
 
-
+for(i = 0; i < 10; i++){
+    var test = confirm("Will you hit 'Okay' 10 times?")
+    if(test === true){
+        continue;
+    } else if(test !== true) {
+        alert("Already finished?");
+    break;
+    } else {
+        alert("I can't believe you hit it 10 times! That is a lot of persistence!")
+    }
+}
