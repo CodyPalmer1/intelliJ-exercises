@@ -16,9 +16,9 @@ alert("Nice to meet you " + userName + "!"); // Greet User.
 var howAreYou = prompt("How are you doing today?").toLowerCase().toString().trim();
 //console.log(howAreYou.toLowerCase());
 console.log(howAreYou);
-if (howAreYou === "good" || "great") {
+if (howAreYou === "good") {
     alert("Good! I am glad that you are doing well. Lets get started."); //Should run this line first
-} else if (howAreYou === "bad" || "horrible") {
+} else if (howAreYou === "bad") {
     alert("Well lets hope it gets better. Lets get started then."); //Should run this line second
 } else {
     alert("Okay then. Lets get started.");
@@ -57,3 +57,12 @@ for(i = 0; i < 10; i++){
         alert("I can't believe you hit it 10 times! That is a lot of persistence!")
     }
 }
+
+var you = {
+    weight: 72,
+    height: 220,
+    eyeColor: "Green",
+    hairColor: "Black"
+};
+console.log(you);
+console.log(you.weight);
