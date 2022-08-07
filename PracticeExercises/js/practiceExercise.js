@@ -58,6 +58,14 @@ for(i = 0; i < 10; i++){
     }
 }
 
+var successLevels = ['Succeeding', 'Contentment', 'Complacency', 'Regression'];
+alert('There are many ways to rate your success level.');
+alert('A few may be: ');
+successLevels.forEach(function(successLevel) {
+    alert(successLevel);
+});
+alert (`Our goal is to try to help everyone get to ${successLevels[1]} or ${successLevels[2]}.`);
+
 var you = {
     weight: 72,
     height: 220,
