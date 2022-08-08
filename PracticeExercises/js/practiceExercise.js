@@ -74,3 +74,15 @@ var you = {
 };
 console.log(you);
 console.log(you.weight);
+
+function findYearsToAdult(input){
+    input = prompt("What is your age?");
+    if(input < 18){
+        return alert(`You have ${18 - input} years until your an adult!`)
+    } else if (input > 18) {
+        return alert (`You have been an adult for ${input - 18} years!`)
+    } else {
+        alert(`You are 18, so you are an adult!`)
+    }
+}
+console.log(findYearsToAdult());
