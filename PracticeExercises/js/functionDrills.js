@@ -59,30 +59,43 @@ function isMultipleOf(target, n){
 console.log(isMultipleOf(10, 5));
 console.log(isMultipleOf(11, 7));
 
+function isTrue(boolean){
+   return boolean === true;
+}
+console.log(isTrue(true));
+console.log(isTrue(false));
+console.log(isTrue("yes"));
+
+function isFalse(boolean){
+   return boolean !== true;
+}
+console.log(isFalse(true));
+console.log(isFalse(false));
+console.log(isFalse("yes"));
 
 // SIMPLE FUNCTION DRILLS
-
-function returnTwo(){
-   return 2;
-}
-console.log(returnTwo());
-
-function sayHowdy(){
-   console.log("Howdy!");
-}
-sayHowdy();
-
-function returnName(){
-  return "Cody Palmer"
-}
-console.log(returnName());
-
-function addThree(input){
-   return input + 3
-}
-console.log(addThree(5));
-
-function sayString(input){
-return input
-}
-console.log(sayString('codeup'))
+//
+// function returnTwo(){
+//    return 2;
+// }
+// console.log(returnTwo());
+//
+// function sayHowdy(){
+//    console.log("Howdy!");
+// }
+// sayHowdy();
+//
+// function returnName(){
+//   return "Cody Palmer"
+// }
+// console.log(returnName());
+//
+// function addThree(input){
+//    return input + 3
+// }
+// console.log(addThree(5));
+//
+// function sayString(input){
+// return input
+// }
+// console.log(sayString('codeup'))
