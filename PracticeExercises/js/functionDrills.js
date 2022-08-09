@@ -73,6 +73,25 @@ console.log(isFalse(true));
 console.log(isFalse(false));
 console.log(isFalse("yes"));
 
+function isTruthy(input){
+   return input
+}
+function isFalsy(input){
+   return input
+}
+
+const vowels = ['a', 'e', 'i', 'o', 'u']
+function isVowel(vowel){
+   if(vowel = vowels){
+      return true
+   } else {
+      return false
+   }
+}
+console.log(isVowel('a'));
+console.log(isVowel('p'));
+
+
 // SIMPLE FUNCTION DRILLS
 //
 // function returnTwo(){
@@ -99,3 +118,21 @@ console.log(isFalse("yes"));
 // return input
 // }
 // console.log(sayString('codeup'))
+
+//CHALLENGE FUNCTION DRILLS
+
+function identity(input){
+   return input
+}
+console.log(identity("yes"));
+console.log(identity("hello"));
+
+function getRandomNumber(min, max){
+   return Math.random() * (max - min) + min;
+}
+console.log(getRandomNumber(5, 9));
+console.log(getRandomNumber(9, 11));
+
+function first(input){
+   return input
+}
