@@ -134,5 +134,21 @@ console.log(getRandomNumber(5, 9));
 console.log(getRandomNumber(9, 11));
 
 function first(input){
-   return input
+   return input.slice(0, 1);
 }
+console.log(first("hello"));
+
+function last(input){
+   return input.charAt(input.length - 1)
+}
+console.log(last("hello"))
+
+function addFive(input){
+   return input + 5
+}
+console.log(addFive(10))
+
+function toInt(input){
+   return parseInt(input);
+}
+console.log(toInt("25"))
