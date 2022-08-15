@@ -1,10 +1,10 @@
 alert("Good afternoon.");
 
-let userName = (""); //init userName
-while (userName === ""){ //While loop to get input and greet user.
-    userName = prompt("Hi, what is your name?");
-}
-alert("Nice to meet you " + userName + "!"); // Greet User.
+// let userName = (""); //init userName
+// while (userName === ""){ //While loop to get input and greet user.
+//     userName = prompt("Hi, what is your name?");
+// }
+// alert("Nice to meet you " + userName + "!"); // Greet User.
 
 
 // function greetUser(name) { //Function to greet user, replaced with while loop.

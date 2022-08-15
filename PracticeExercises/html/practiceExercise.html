@@ -5,14 +5,44 @@
 </head>
 <style>
     h1, h2 {
-    color:orangered;
-    text-decoration:orangered overline underline;
+    color:darkred;
+    text-decoration:darkred underline;
 }
 </style>
 <body>
 <h1>ALL ABOUT YOU</h1>
 <h2>Please answer the following questions.</h2>
-<script src="../js/practiceExercise.js">
-</script>
+<!--<script src="../js/practiceExercise.js">-->
+<!--</script>-->
+<form>
+    <b><label for="userName">Please enter your name: </label></b>
+    <input type="text" name="userName" id="userName" placeholder="Last Name, First Name">
+    <br>
+    <br>
+    <label><b>How are you doing today?</b></label><br>
+    <br><select name="how_are_you">
+        <option value="Amazing">Amazing</option>
+        <option value="Fantastic">Fantastic</option>
+        <option value="Great">Great</option>
+        <option value="Good">Good</option>
+        <option value="Okay">Okay</option>
+        <option value="Bad">Bad</option>
+        <option value="Terrible">Terrible</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+    <label><b>What day of the week is it?</b></label><br>
+    <br>
+    <select name="day_of_week">
+        <option value="Sunday">Sunday</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Firday</option>
+        <option value="Saturday">Terrible</option>
+    </select>
+
+</form>
 </body>
 </html>
