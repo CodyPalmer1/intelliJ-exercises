@@ -18,9 +18,12 @@
     <b><label for="userName">Please enter your name: </label></b>
     <input type="text" name="userName" id="userName" placeholder="Last Name, First Name">
     <br>
+    <b><label for="date">Please enter your birthday: </label></b>
+    <input type="date" name="date" id="date" placeholder="MM/DD/YYYY">
+    <br>
     <br>
     <label><b>How are you doing today?</b></label><br>
-    <br><select name="how_are_you">
+    <select name="how_are_you">
         <option value="Amazing">Amazing</option>
         <option value="Fantastic">Fantastic</option>
         <option value="Great">Great</option>
@@ -31,8 +34,7 @@
         <option value="Other">Other</option>
     </select>
     <br><br>
-    <label><b>What day of the week is it?</b></label><br>
-    <br>
+    <label><b>What is your favorite day of the week?</b></label><br>
     <select name="day_of_week">
         <option value="Sunday">Sunday</option>
         <option value="Monday">Monday</option>
@@ -41,8 +43,16 @@
         <option value="Thursday">Thursday</option>
         <option value="Friday">Firday</option>
         <option value="Saturday">Terrible</option>
-    </select>
+    <br></select>
 
+    <br>
+    <br>
+    <label><b>Are you ready for this questionaire?</b></label><br>
+    <label> <input type="radio" name="areYouReady" value="Yes">Yes</label><br>
+    <label><input type="radio" name="areYouReady" value="No">No</label><br>
+    <label><input type="radio" name="areYouReady" value="Maybe">Maybe</label><br>
+    <label><input type="radio" name="areYouReady" value="weWillSee">We will see</label>
+    <br>
 </form>
 </body>
 </html>
