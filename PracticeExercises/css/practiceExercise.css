@@ -1,0 +1,12 @@
+p, #userName1, #birthday, #howAreYou, #favDay, #question{
+    color: maroon;
+    text-decoration: underline;
+}
+
+label{
+    font-weight: bold;
+}
+
+option, input{
+    font: bold;
+}
