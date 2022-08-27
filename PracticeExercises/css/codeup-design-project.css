@@ -1,0 +1,57 @@
+#navColor {
+    border: #f0f0f0;
+    padding: 15px;
+    background: #f0f0f0;
+    background-clip: content-box;
+}
+
+.circle1 {
+    margin:0;
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    border-radius: 125%;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background: #e5563a;
+    resize: inline;
+}
+.circle2 {
+    margin:0;
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    border-radius: 125%;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background: #eb9c3b;
+    resize: inline;
+}
+.circle3 {
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    border-radius: 125%;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background: #7bb06c;
+    resize: inline;
+}
+.circle4 {
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    border-radius: 125%;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    background: #00aaa9;
+    resize: inline;
+}
+.container{
+
+}
+
