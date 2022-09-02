@@ -8,3 +8,11 @@ td, th {
     padding: 5px 10px;
 }
 
+h5, h1, select{
+    color: indianred;
+    margin-top: 50px;
+}
+*{
+    font-family: Rockwell, sans-serif;
+    color: white;
+}

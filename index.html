@@ -15,9 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=IM+Fell+English&display=swap"
           rel="stylesheet">
 </head>
-<body>
-<h1 class="title text-center">Coffee!</h1>
-<hr class="m-3" id="line">
+<body style="background-color: rgba(241,127,112,0.74)">
+<h1 class="mt-4 title text-center">Coffee!</h1>
+<hr style="background-color: rgb(159,86,76)" class="mx-5 p-1" id="line">
 <div class="container">
     <div class="row">
         <div class="col-lg-6">
@@ -36,27 +36,33 @@
 
             <form>
                 <label for="roast-selection"></label>
-                <select class="border border-dark rounded p-2 my-3 w-100" id="roast-selection">
-                    <option>light</option>
-                    <option>medium</option>
-                    <option>dark</option>
+                <h5>Roast</h5>
+                <select class="border border-white rounded p-2 mb-3 w-100" id="roast-selection">
+                    <option selected>All</option>
+                    <option>LIGHT</option>
+                    <option>MEDIUM</option>
+                    <option>DARK</option>
                 </select>
+                <h5 class ="m-none ">Coffee Name</h5>
                 <form id="searchBar1" class="d-flex" role="search">
-                    <input class="border border-dark rounded form-control my-2" type="search" placeholder="Search" aria-label="Search">
-                    <input class="w-100 p-2 my-2" id="submit" type="submit"/>
+                    <input class="border border-white rounded form-control p-2 my-2" type="search" placeholder="Search" aria-label="Search">
+                    <input style="color: #fff; background-color: #CD5C5CFF;" class="border border-white rounded w-100 p-2 my-2" id="submit" type="submit"/>
                 </form>
             </form>
 
             <form>
                 <label for="roast-selection"></label>
-                <select class="border border-secondary rounded p-2 my-3 w-100" id="roast-selection2">
-                    <option>light</option>
-                    <option>medium</option>
-                    <option>dark</option>
+                <h5>Roast</h5>
+                <select class="border border-white rounded p-2 my-3 w-100" id="roast-selection2">
+                    <option selected>All</option>
+                    <option>LIGHT</option>
+                    <option>MEDIUM</option>
+                    <option>DARK</option>
                 </select>
+                <h5>Coffee Name</h5>
                 <form id="searchBar2" class="d-flex" role="search">
-                    <input class="border border-dark rounded form-control my-2" type="search" placeholder="Search" aria-label="Search">
-                    <input class="w-100 p-2 my-2" id="submit2" type="submit"/>
+                    <input class="border border-white rounded form-control p-2 my-2" type="search" placeholder="Search" aria-label="Search">
+                    <input style="color: #fff; background-color: #CD5C5CFF;" class="border border-white rounded w-100 p-2 my-2" id="submit2" type="submit"/>
                 </form>
             </form>
         </div>
