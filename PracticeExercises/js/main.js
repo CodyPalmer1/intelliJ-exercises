@@ -56,7 +56,7 @@
 //
 // submitButton.addEventListener('click', updateCoffees);
 
-
+$('tr').css('class')
 
 let filterProd = [];
 let filterProd2 = [];
