@@ -44,7 +44,15 @@ public class TriangleExercise {
                 int triangleHeight = (2 * area) / base;
                 System.out.println("The area of your triangle is: " + triangleHeight);
             } else if (rightTriYN.equalsIgnoreCase("no") || rightTriYN.equalsIgnoreCase("n")){
-
+                System.out.println("Is it a equal lateral triangle? ");
+                String isEqualLateral = scanner.nextLine();
+                if(isEqualLateral.equalsIgnoreCase("yes") || isEqualLateral.equalsIgnoreCase("y")){
+                    System.out.println("Please enter base: ");
+                    String equalLateralBase = scanner.nextLine();
+                    System.out.println("Please enter base length: ");
+                    String equalLateralSides = scanner.nextLine();
+                    System.out.println("Please enter sides length: ");
+                }
             }
         }
 
