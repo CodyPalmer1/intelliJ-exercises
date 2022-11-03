@@ -5,12 +5,12 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class TriangleExercise {
-    Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-
+        triangle();
     }
 
-    public Double triangle(){
+    public static Double triangle(){
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Would you like to find the (1) Area or (2) Angles of a triangle?");
         String triangleAnswer = scanner.nextLine();
         if(Objects.equals(triangleAnswer, "1")){
