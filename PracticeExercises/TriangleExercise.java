@@ -32,6 +32,7 @@ public class TriangleExercise {
                 int sideThree = scanner.nextInt();
                 int s = (hypotenuse + sideTwo + sideThree)/2;
                 int areaTriangle = (int) Math.sqrt((s*(s-sideTwo)*(s-sideThree)*(s-hypotenuse)));
+                System.out.println(areaTriangle);
             }
         } else if(Objects.equals(triangleAnswer, "2")){
             System.out.println("Is your triangle a right triangle? [Y/N]");

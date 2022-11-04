@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/practiceExercise.css">
+    <title>Practice JS</title>
+</head>
+<style>
+    h1, h2 {
+    color:darkred;
+    text-decoration:darkred underline;
+}
+</style>
+<body>
+<h1>ALL ABOUT YOU</h1>
+<h2>Please answer the following questions.</h2>
+<!--<script src="../js/practiceExercise.js">-->
+<!--</script>-->
+<form>
+    <b><label for="userName" id="userName1">Please enter your name: </label></b>
+    <input type="text" name="userName" id="userName" placeholder="Last Name, First Name">
+    <br>
+    <b><label for="date" id="birthday">Please enter your birthday: </label></b>
+    <input type="date" name="date" id="date" placeholder="MM/DD/YYYY">
+    <br>
+    <br>
+    <label id="howAreYou"><b>How are you doing today?</b></label><br>
+    <select name="how_are_you">
+        <option value="Amazing">Amazing</option>
+        <option value="Fantastic">Fantastic</option>
+        <option value="Great">Great</option>
+        <option value="Good">Good</option>
+        <option value="Okay">Okay</option>
+        <option value="Bad">Bad</option>
+        <option value="Terrible">Terrible</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+    <label id="favDay"><b>What is your favorite day of the week?</b></label><br>
+    <select name="day_of_week">
+        <option value="Sunday">Sunday</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Firday</option>
+        <option value="Saturday">Terrible</option>
+    <br></select>
+
+    <br>
+    <br>
+    <label id="question"><b>Are you ready for this questionaire?</b></label><br>
+    <label> <input type="radio" name="areYouReady" value="Yes">Yes</label><br>
+    <label><input type="radio" name="areYouReady" value="No">No</label><br>
+    <label><input type="radio" name="areYouReady" value="Maybe">Maybe</label><br>
+    <label><input type="radio" name="areYouReady" value="weWillSee">We will see</label>
+    <br>
+
+    <form>
+        <b><p>How did you hear about this site?</p></b>
+        <input type="radio" id="Online" name="howDidYouFind" value="Online">
+        <label for="Online">Online</label><br>
+        <input type="radio" id="Advertisment" name="howDidYouFind" value="Advertisment">
+        <label for="Advertisment">Advertisment (Billboard, Computer Ad, Etc.)</label><br>
+        <input type="radio" id="Other" name="howDidYouFind" value="Other">
+        <label for="Other">Other</label>
+
+        <br>
+
+        <b><p>Please select your age range:</p></b>
+        <input type="radio" id="age1" name="age" value="18-25">
+        <label for="age1">18-25</label><br>
+        <input type="radio" id="age2" name="age" value="26-35">
+        <label for="age2">26-35</label><br>
+        <input type="radio" id="age3" name="age" value="36-45">
+        <label for="age3">36-45</label><br>
+        <input type="radio" id="age4" name="age" value="46+">
+        <label for="age4">46+</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</form>
+</body>
+</html>
