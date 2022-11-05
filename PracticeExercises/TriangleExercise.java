@@ -49,10 +49,11 @@ public class TriangleExercise {
                 String isEqualLateral = scanner.nextLine();
                 if(isEqualLateral.equalsIgnoreCase("yes") || isEqualLateral.equalsIgnoreCase("y")){
                     System.out.println("Please enter base: ");
-                    String equalLateralBase = scanner.nextLine();
+                    int equalLateralBase = scanner.nextInt();
                     System.out.println("Please enter base length: ");
-                    String equalLateralSides = scanner.nextLine();
+                    int equalLateralSides = scanner.nextInt();
                     System.out.println("Please enter sides length: ");
+                    System.out.println(equalLateralBase + (2 * equalLateralSides));
                 }
             }
         }
