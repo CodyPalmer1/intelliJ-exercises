@@ -57,7 +57,11 @@ public class TriangleExercise {
                 }
             }
         }
-
+        System.out.println("Are you trying to find the area of a different shape?");
+        String otherAnswer = scanner.nextLine();
+        if(otherAnswer.equalsIgnoreCase("yes") || otherAnswer.equalsIgnoreCase("y")){
+            System.out.println("What shape are you trying to find: (1) Square, (2) Circle, (3) Rectangle");
+        }
         return null;
     }
 }
